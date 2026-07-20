@@ -1,0 +1,6 @@
+{
+  "name": "سامانه صدای همکاران دیلی مارکت",
+  "description": "سامانه گزارش‌دهی امن و ناشناس پرسنل فروشگاه‌های زنجیره‌ای دیلی مارکت",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
