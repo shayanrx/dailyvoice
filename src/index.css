@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'IRANSansX';
+  src: url('/fonts/IRANSansX-RegularD4.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: 'IRANSansX', 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+@keyframes border-glow {
+  0%, 100% {
+    box-shadow: 0 0 6px rgba(220, 38, 38, 0.2);
+    border-color: rgba(220, 38, 38, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 14px rgba(220, 38, 38, 0.5);
+    border-color: rgba(220, 38, 38, 0.8);
+  }
+}
+
+.glowing-button {
+  animation: border-glow 2.5s infinite ease-in-out;
+}
